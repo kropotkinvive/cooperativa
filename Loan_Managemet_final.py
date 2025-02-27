@@ -149,7 +149,7 @@ class LoanManager:
         self.fetch_data()
         self.employee_table.bind("<ButtonRelease-1>", self.get_cursor)
         btnFrame = Frame(self.root, bd=5, relief=RIDGE)
-        btnFrame.place(x=700, y=630, width=480, height=60)
+        btnFrame.place(x=700, y=1200, width=480, height=60)
  
         # Create a button to calculate the Details
         btn1 = Button(btnFrame, text='Add record', font='arial 12 bold',
