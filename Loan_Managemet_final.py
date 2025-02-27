@@ -19,7 +19,7 @@ class LoanManager:
         self.root.geometry("1350x720+0+0")
         # Create a label with the title text and style it
         title = Label(self.root, text="Loan Management System", font=(
-            "Comic Sans MS", 20, ), bd=8,  bg='black', fg='yellow')
+            "Comic Sans MS", 10, ), bd=8,  bg='black', fg='yellow')
         title.pack(side=TOP, fill=X)
         # Create StringVar variables to store the loan details
         self.LoanId = StringVar()
