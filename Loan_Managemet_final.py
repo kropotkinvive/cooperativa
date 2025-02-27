@@ -16,7 +16,7 @@ class LoanManager:
         self.root = root
         # Set the title and size of the root window
         self.root.title("Loan Management System  © hack_limitless")
-        self.root.geometry("1350x720+0+0")
+        self.root.geometry("650x360+0+0")
         # Create a label with the title text and style it
         title = Label(self.root, text="Loan Management System", font=(
             "Comic Sans MS", 10, ), bd=8,  bg='black', fg='yellow')
