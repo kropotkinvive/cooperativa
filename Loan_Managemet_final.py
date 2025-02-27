@@ -345,6 +345,8 @@ cur.execute('create table if not exists customer(Loan_Id varchar(20) primary key
  
 # Create a Tkinter root window
 root = Tk()
+scrollbar = tk.Scrollbar(window, orient="vertical", command=text_box.yview)
+
 # Create a Login object and pass the root window as an argument
 obj = Login(root)
 # if u want to skip the login proess then uncomment the below line and comment the above line
